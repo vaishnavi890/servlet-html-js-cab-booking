@@ -216,7 +216,4 @@ FROM drivers d
 JOIN ratings rt ON d.driver_id = rt.driver_id
 GROUP BY d.name;
 
--- ===================================
--- Clean Up (Drop All Tables)
--- ===================================
 -- DROP TABLE IF EXISTS ratings, payments, rides, drivers, users;
