@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.vaishnavi.cab.booking</groupId>
-  <artifactId>maven-html-jdbc-cab-booking</artifactId>
+  <artifactId>maven-html-css-cab-booking</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>maven-html-jdbc-cab-booking</name>
+  <name>maven-html-css-cab-booking</name>
   <url>http://maven.apache.org</url>
 
   <properties>
