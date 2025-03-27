@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Ride</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<h2>Book a Ride</h2>
+<form id="rideForm">
+    <label>Pickup Location:</label>
+    <input type="text" name="pickup" required>
+
+    <label>Dropoff Location:</label>
+    <input type="text" name="dropoff" required>
+
+    <label>Payment Method:</label>
+    <select name="payment">
+        <option value="Cash">Cash</option>
+        <option value="Card">Card</option>
+    </select>
+
+    <button type="submit">Book Now</button>
+</form>
+
+<script src="../scripts.js"></script>
+</body>
+</html>
