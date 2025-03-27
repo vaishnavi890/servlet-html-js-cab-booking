@@ -10,4 +10,6 @@ public interface RatingImpl {
     List<Rating> getAllRatings();
     void updateRating(Rating rating);
     void deleteRating(int ratingId);
+
+    void saveRating(Rating rating);
 }

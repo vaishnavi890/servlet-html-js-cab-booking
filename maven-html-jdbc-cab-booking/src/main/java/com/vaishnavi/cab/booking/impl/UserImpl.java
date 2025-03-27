@@ -10,4 +10,6 @@ public interface UserImpl {
     List<User> getAllUsers();
     void updateUser(User user);
     void deleteUser(int userId);
+
+    void saveUser(User user);
 }

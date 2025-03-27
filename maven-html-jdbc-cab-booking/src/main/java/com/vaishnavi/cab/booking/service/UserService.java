@@ -55,4 +55,9 @@ public class UserService implements UserImpl {
             System.err.println("Error deleting user: " + e.getMessage());
         }
     }
+
+    @Override
+    public void saveUser(User user) {
+
+    }
 }

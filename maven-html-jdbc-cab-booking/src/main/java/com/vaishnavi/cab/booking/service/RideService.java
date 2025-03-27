@@ -55,4 +55,9 @@ public class RideService implements RideImpl {
             System.err.println("Error deleting ride: " + e.getMessage());
         }
     }
+
+    @Override
+    public void saveRide(Ride ride) {
+
+    }
 }

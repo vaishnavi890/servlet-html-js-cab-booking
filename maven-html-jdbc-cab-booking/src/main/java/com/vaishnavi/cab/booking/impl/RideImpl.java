@@ -11,4 +11,6 @@ public interface RideImpl {
     List<Ride> getAllRides();
     void updateRide(Ride ride);
     void deleteRide(int rideId);
+
+    void saveRide(Ride ride);
 }

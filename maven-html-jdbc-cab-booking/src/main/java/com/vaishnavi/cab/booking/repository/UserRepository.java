@@ -102,4 +102,6 @@ public class UserRepository {
         }
     }
 
+    public void update(User user) {
+    }
 }

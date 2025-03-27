@@ -16,7 +16,7 @@ public class RatingRepository {
             statement.setInt(1, rating.getRideId());
             statement.setInt(2, rating.getUserId());
             statement.setInt(3, rating.getDriverId());
-            statement.setInt(4, rating.getRating());
+            statement.setDouble(4, rating.getRating());
             statement.setString(5, rating.getFeedback());
             statement.executeUpdate();
             System.out.println("Rating saved successfully.");
@@ -78,7 +78,7 @@ public class RatingRepository {
             statement.setInt(1, rating.getRideId());
             statement.setInt(2, rating.getUserId());
             statement.setInt(3, rating.getDriverId());
-            statement.setInt(4, rating.getRating());
+            statement.setDouble(4, rating.getRating());
             statement.setString(5, rating.getFeedback());
             statement.setInt(6, rating.getRatingId());
             statement.executeUpdate();

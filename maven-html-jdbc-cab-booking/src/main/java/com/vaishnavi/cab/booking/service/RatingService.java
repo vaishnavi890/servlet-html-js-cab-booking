@@ -55,4 +55,9 @@ public class RatingService implements RatingImpl {
             System.err.println("Error deleting rating: " + e.getMessage());
         }
     }
+
+    @Override
+    public void saveRating(Rating rating) {
+
+    }
 }

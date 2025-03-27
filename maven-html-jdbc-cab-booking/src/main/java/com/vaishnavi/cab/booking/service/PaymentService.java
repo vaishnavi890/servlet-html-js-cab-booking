@@ -55,4 +55,9 @@ public class PaymentService implements PaymentImpl {
             System.err.println("Error deleting payment: " + e.getMessage());
         }
     }
+
+    @Override
+    public void savePayment(Payment payment) {
+
+    }
 }

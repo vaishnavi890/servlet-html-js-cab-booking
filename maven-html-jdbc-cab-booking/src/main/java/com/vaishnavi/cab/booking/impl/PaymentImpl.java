@@ -10,4 +10,6 @@ public interface PaymentImpl {
     List<Payment> getAllPayments();
     void updatePayment(Payment payment);
     void deletePayment(int paymentId);
+
+    void savePayment(Payment payment);
 }

@@ -5,9 +5,8 @@ import lombok.*;
 @Getter
 @Setter
 @ToString
-@AllArgsConstructor
-@NoArgsConstructor
 @Data
+@RequiredArgsConstructor
 
 
 public class User {
@@ -17,6 +16,15 @@ public class User {
     private String phone;
 
     public User(int userId, String name, String email, String phone) {
+    }
+
+    public User() {
+
+    }
+
+
+    public int getUserId() {
+        return userId;
     }
 
     public String getName() {

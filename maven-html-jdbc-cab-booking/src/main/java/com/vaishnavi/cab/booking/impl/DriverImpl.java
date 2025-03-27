@@ -11,4 +11,6 @@ public interface DriverImpl {
     List<Driver> getAllDrivers();
     void updateDriver(Driver driver);
     void deleteDriver(int driverId);
+
+    void saveDriver(Driver driver);
 }
