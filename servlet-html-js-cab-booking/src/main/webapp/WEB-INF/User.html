@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Management - Cab Order System</title>
+    <script src="user.js"></script> <!-- Linking to external JavaScript file -->
+</head>
+<body>
+<h1>User Registration</h1>
+<form onsubmit="event.preventDefault(); registerUser();">
+    <label>Name: <input type="text" id="name" required></label><br><br>
+    <label>Email: <input type="email" id="email" required></label><br><br>
+    <label>Phone: <input type="text" id="phone" required></label><br><br>
+    <button type="submit">Register User</button>
+</form>
+
+<div id="userList" style="margin-top: 30px;"></div>
+</body>
+</html>
