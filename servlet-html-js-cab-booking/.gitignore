@@ -187,3 +187,7 @@ README.html
 mvnw
 mvnw.cmd
 
+temp.txt
+* .log
+node_modules/
+.idea/
