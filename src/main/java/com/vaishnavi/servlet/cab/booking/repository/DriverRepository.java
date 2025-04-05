@@ -53,6 +53,11 @@ public class DriverRepository {
         }
         return list;
     }
+
+    public List<Driver> fetchAllDrivers() {
+        List<Driver> drivers = new ArrayList<>();
+        return drivers;
+    }
 }
 
 

@@ -6,18 +6,10 @@ import com.vaishnavi.servlet.cab.booking.repository.DriverRepository;
 import java.util.List;
 
 public class DriverService {
-    private final DriverRepository repo = new DriverRepository();
+    DriverRepository repo = new DriverRepository();
 
-    public boolean addDriver(Driver driver) {
-        return repo.insertDriver(driver);
-    }
-
-    public boolean deleteDriver(int driverId) {
-        return repo.removeDriver(driverId);
-    }
-
-    public List<Driver> getAllDrivers() {
-        return repo.getAllDrivers();
+    public List<Driver> getAllDrivers() throws Exception {
+        return repo.fetchAllDrivers();
     }
 }
 
