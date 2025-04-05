@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Make Payment</title>
+    <script src="payment.js"></script>
+</head>
+<body>
+<h2>Make a Payment</h2>
+<form onsubmit="event.preventDefault(); makePayment();">
+    <label>User ID: <input type="number" id="puserId" required></label><br><br>
+    <label>Ride ID: <input type="number" id="prideId" required></label><br><br>
+    <label>Amount: <input type="number" id="amount" required></label><br><br>
+    <label>Method: <input type="text" id="method" required></label><br><br>
+    <button type="submit">Pay</button>
+</form>
+
+<div id="paymentList" style="margin-top: 30px;"></div>
+</body>
+</html>

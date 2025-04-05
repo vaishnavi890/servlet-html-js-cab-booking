@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Driver Registration</title>
+    <script src="driver.js"></script>
+</head>
+<body>
+<h2>Register Driver</h2>
+<form onsubmit="event.preventDefault(); registerDriver();">
+    <label>Name: <input type="text" id="dname" required></label><br><br>
+    <label>Email: <input type="email" id="demail" required></label><br><br>
+    <label>Phone: <input type="text" id="dphone" required></label><br><br>
+    <label>Cab Details: <input type="text" id="dcab" required></label><br><br>
+    <button type="submit">Register Driver</button>
+</form>
+
+<div id="driverList" style="margin-top: 30px;"></div>
+</body>
+</html>

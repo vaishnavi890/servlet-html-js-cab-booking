@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rate Driver</title>
+    <script src="rating.js"></script>
+</head>
+<body>
+<h2>Rate a Driver</h2>
+<form onsubmit="event.preventDefault(); rateDriver();">
+    <label>User ID: <input type="number" id="ruserId" required></label><br><br>
+    <label>Driver ID: <input type="number" id="rdriverId" required></label><br><br>
+    <label>Ride ID: <input type="number" id="rrideId" required></label><br><br>
+    <label>Rating (1-5): <input type="number" id="rating" min="1" max="5" required></label><br><br>
+    <label>Review: <input type="text" id="review" required></label><br><br>
+    <button type="submit">Submit Rating</button>
+</form>
+
+<div id="ratingList" style="margin-top: 30px;"></div>
+</body>
+</html>

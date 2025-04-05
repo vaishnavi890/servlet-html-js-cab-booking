@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Ride</title>
+    <script src="ride.js"></script>
+</head>
+<body>
+<h2>Book a Ride</h2>
+<form onsubmit="event.preventDefault(); bookRide();">
+    <label>User ID: <input type="number" id="userId" required></label><br><br>
+    <label>Driver ID: <input type="number" id="driverId" required></label><br><br>
+    <label>Pickup: <input type="text" id="pickup" required></label><br><br>
+    <label>Dropoff: <input type="text" id="dropoff" required></label><br><br>
+    <button type="submit">Book Ride</button>
+</form>
+
+<div id="rideList" style="margin-top: 30px;"></div>
+</body>
+</html>
